@@ -10,7 +10,7 @@
             <h1>Pizza Menu</h1>
             <!--Pizza sizes-->
             <div id="sizetable">
-                <h3 class="sizes">Choose Your Size</h3>
+                <h3 class="tablehead">Choose Your Size</h3>
                 <div class="menu">
                     <input type="radio" name="size" value="small">Small<br>
                     <input type="radio" name="size" value ="Medium">Medium<br>
@@ -19,6 +19,31 @@
                 </div>
                 </div>
             </div>
+            <div id="crusttable">
+                <h3 class="tablehead">Select Crust</h3>
+                <div class="menu">
+                    <input type="radio" name="crust" value="Crispy">Crispy<br>
+                    <input type="radio" name="crust" value="Stuffed">Stuffed<br>
+                    <input type="radio" name="crust" value="Gluten-free">Gluten-free<br>
+                </div>
+
+            </div>
+            <br>
+            <!--toppings-->
+            <div id="toppingstable">
+                <h3 class="tablehead">Select toppings</h3>
+                <div class="menu">
+                    <input type="radio" name="toppings" value="Pepperoni">Pepperoni<br>
+                    <input type="radio" name="toppings" value="Sausage">Sausages<br>
+                    <input type="radio" name="toppings" value="Chicken">Chicken<br>
+                    <input type="radio" name="toppings" value="Bacon">Bacon<br>
+                    <input type="radio" name="toppings" value="Pineapples">Pineapples<br>
+                    <input type="radio" name="toppings" value="Jalapenos">Jalapenos<br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <button id="calculate" type="submit" onclick="invoice()">Submit Order</button>
         </div>
     </body>
 </html>
