@@ -61,3 +61,5 @@ $("#totalprice").html(" Ksh"+totalPrice+".00");
 
 
 
+
+
