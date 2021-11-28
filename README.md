@@ -7,9 +7,9 @@ It allows one to select the size of the pizza, type of crust and toppings.It the
 * Clone the repo git clone https://github.com/Ianfranklyn/PizzaWK4.git
 
 ## Live link
-
+https://ianfranklyn.github.io/PizzaWK4/
 ## Known Bugs
-The totaling function
+The totaling function and some css doesn't display.
 ## Technologies Used
 1. HTML
 2. CSS
