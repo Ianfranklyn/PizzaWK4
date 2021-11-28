@@ -9,7 +9,7 @@ It allows one to select the size of the pizza, type of crust and toppings.It the
 ## Live link
 
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+The totaling function
 ## Technologies Used
 1. HTML
 2. CSS
@@ -18,4 +18,4 @@ It allows one to select the size of the pizza, type of crust and toppings.It the
 
 ### License
 This is under the [MIT](LICENSE) license
-Copyright (c) {year} **{List of contributors or company name}**
+Copyright (c) 2021 **Ian Franklyn**
