@@ -1,7 +1,7 @@
 body{
     margin:0px;
     padding: opx;
-    background-image: url(/images/pizza4.jpg);
+    background-image: url("../../images/pizza4.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
