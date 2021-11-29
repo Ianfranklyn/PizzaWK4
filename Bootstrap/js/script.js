@@ -13,19 +13,22 @@ function payment(){
     
 
     var crust=document.getElementsByName("crust");
-    let crustString
+    let crustString=""
     console.log("crust is="+crust);
     for(var i =0; i < crust.length; i++){
         if (crust[i].checked) {
             alert("The crust is " + crust[i].value);
+            crustString = crust[i].value;
         }
     }
     var toppingsprice=0;
+    let toppingsString=""
     var toppings=document.getElementsByName("toppings");
     console.log("toppings is="+toppings);
     for(var i =0; i < toppings.length; i++){
         if (toppings[i].checked) {
             alert("The toppings is " + toppings[i].value);
+            toppingsString = toppings[i].value;
         }
     }
     var toppingsprice=0;
@@ -55,7 +58,7 @@ function payment(){
          // $("#toppings").html(toppings+" Cheese");
          // $("#toppingsprice").html("+"+toppingsprice+".00");
          // $("#totalprice").value = " Ksh.00";
-         console.log("Total prive ", totalprice)
+         console.log("Total price ", totalprice)
      }
      else if(sizeString==="Large"){
          sizeprice=1400;
@@ -64,7 +67,7 @@ function payment(){
          sizeprice=1600;
      }; console.log("sizepricebiwucubqjb="+sizeprice);
 
-     var crust= document.querySelector('input[name="crust"]:checked').value;console.log("crust"+crust);
+     var crust= document.getElementsByName('input[name="crust"]:checked').value;console.log("crust"+crust);
      var crustprice=0
      if(crust="Crispy"){
          crustprice=300;
@@ -90,7 +93,7 @@ function payment(){
      // $("#toppingsprice").html("+"+toppingsprice+".00");
      // $("#totalprice").value = " Ksh.00";
      console.log("Total price ", totalprice)
-     alert("The Size is " + sizeString + " it costs "+ sizeprice + "The crust is " + crust + "it costs" +crustprice)
+     alert("The Size is "   + sizeString +  " it costs "  + sizeprice +   "The crust is "   + crustString +   "it costs"   + crustprice   +  "The topping is " + toppingsString + "it costs" + toppingsprice + "\n total cost is "   + totalprice);
 
     };
 
